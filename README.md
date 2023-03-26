@@ -41,14 +41,12 @@ ELMO-POST: ``run.py elmo_with_precomp tasks/elmo_model2.json``
 
 
 Schema for a configration task.json file (in the tasks directory):
-
-	target: where to output data
-	language, name, description: descriptive terms to describe the task
-	corpora: a list of 2 corpora used to compare the words
-	threshold: a value above which we consider the word to be changed
-	tests: a list of words to be compared across corpora, specifing the word and expected change
-	skip_train: a value that if it present, will make the test skip any train and just compare results
-
+- target: where to output data
+- language, name, description: descriptive terms to describe the task
+- corpora: a list of 2 corpora used to compare the words
+- threshold: a value above which we consider the word to be changed
+- tests: a list of words to be compared across corpora, specifing the word and expected change
+- skip_train: a value that if it present, will make the test skip any train and just compare results
 
 ### Demo
 
