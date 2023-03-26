@@ -32,12 +32,16 @@ You will need the AllenNLP package.
 A test is comprises by runing a model with a predefined configuration: 
 
 SGNS-OP: ``run.py sgns_op tasks/sem_shift_en.json``
+
 SGNS-WI: ``run.py sgns_wi tasks/sem_shift_en.json``
+
 ELMO-PREV: ``run.py elmo_with_precomp tasks/elmo_model1.json``
+
 ELMO-POST: ``run.py elmo_with_precomp tasks/elmo_model2.json``
 
 
 Schema for a configration task.json file (in the tasks directory):
+
 	target: where to output data
 	language, name, description: descriptive terms to describe the task
 	corpora: a list of 2 corpora used to compare the words
