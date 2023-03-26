@@ -1,0 +1,587 @@
+{
+    "name": "sgns_wi_eng_sem_change_description",
+    "language": "en",
+    "tesk_description": "Semantic change description for english",
+    "distance_metrics": [
+        "euclidean",
+        "cosine",
+        "canberra",
+        "manhattan",
+        "braycurtis",
+        "correlation"
+    ],
+    "results": [
+        {
+            "score": 0.78125,
+            "metric": "euclidean",
+            "true_positives": 25,
+            "false_positives": 1,
+            "true_negatives": 0,
+            "false_negatives": 6,
+            "top_words": [
+                {
+                    "leaf": [
+                        1.0,
+                        0.38535202739623436
+                    ]
+                },
+                {
+                    "cost": [
+                        0.4,
+                        0.38663264091179106
+                    ]
+                },
+                {
+                    "disorder": [
+                        0.2,
+                        0.4286820774830312
+                    ]
+                },
+                {
+                    "lift": [
+                        0.4,
+                        0.43884918373594006
+                    ]
+                },
+                {
+                    "gain": [
+                        0.6,
+                        0.4414750630265064
+                    ]
+                },
+                {
+                    "maid": [
+                        1.0,
+                        0.4947722545754321
+                    ]
+                },
+                {
+                    "maybe": [
+                        0.4,
+                        0.5219514069688183
+                    ]
+                },
+                {
+                    "federal": [
+                        0.6,
+                        0.6657556781668715
+                    ]
+                },
+                {
+                    "address": [
+                        2.6,
+                        0.6790051970818894
+                    ]
+                },
+                {
+                    "justice": [
+                        0.2,
+                        0.9849766437572463
+                    ]
+                }
+            ],
+            "detected": [
+                "address",
+                "brick",
+                "cent",
+                "chemistry",
+                "cost",
+                "credit",
+                "crisis",
+                "curious",
+                "curtain",
+                "dare",
+                "deliver",
+                "disease",
+                "disk",
+                "disorder",
+                "domain",
+                "drug",
+                "energy",
+                "excuse",
+                "family",
+                "federal",
+                "gain",
+                "gallery",
+                "lip",
+                "martial",
+                "maybe"
+            ]
+        },
+        {
+            "score": 0.53125,
+            "metric": "cosine",
+            "true_positives": 17,
+            "false_positives": 1,
+            "true_negatives": 0,
+            "false_negatives": 14,
+            "top_words": [
+                {
+                    "deliver": [
+                        1.0,
+                        0.8023125783319521
+                    ]
+                },
+                {
+                    "disk": [
+                        2.6,
+                        0.8136169330480885
+                    ]
+                },
+                {
+                    "brick": [
+                        0.8,
+                        0.8197242174881397
+                    ]
+                },
+                {
+                    "cost": [
+                        0.4,
+                        0.8214011535003213
+                    ]
+                },
+                {
+                    "gallery": [
+                        1.0,
+                        0.8250379365296969
+                    ]
+                },
+                {
+                    "bell": [
+                        0.4,
+                        0.8354875184319825
+                    ]
+                },
+                {
+                    "justice": [
+                        0.2,
+                        0.8781523864551967
+                    ]
+                },
+                {
+                    "lift": [
+                        0.4,
+                        0.8808605533604805
+                    ]
+                },
+                {
+                    "domain": [
+                        2.8,
+                        0.9484086036686845
+                    ]
+                },
+                {
+                    "leaf": [
+                        1.0,
+                        1.0
+                    ]
+                }
+            ],
+            "detected": [
+                "brick",
+                "cost",
+                "credit",
+                "curious",
+                "dare",
+                "disease",
+                "disk",
+                "disorder",
+                "excuse",
+                "family",
+                "federal",
+                "gallery",
+                "justice",
+                "lift",
+                "lip",
+                "maid",
+                "martial"
+            ]
+        },
+        {
+            "score": 0.90625,
+            "metric": "canberra",
+            "true_positives": 29,
+            "false_positives": 1,
+            "true_negatives": 0,
+            "false_negatives": 2,
+            "top_words": [
+                {
+                    "cost": [
+                        0.4,
+                        0.9124886311474824
+                    ]
+                },
+                {
+                    "domain": [
+                        2.8,
+                        0.9137301469792886
+                    ]
+                },
+                {
+                    "disease": [
+                        0.6,
+                        0.9142882506386943
+                    ]
+                },
+                {
+                    "lift": [
+                        0.4,
+                        0.920750874290474
+                    ]
+                },
+                {
+                    "excuse": [
+                        0.4,
+                        0.930216971080658
+                    ]
+                },
+                {
+                    "drug": [
+                        0.8,
+                        0.9309041211752751
+                    ]
+                },
+                {
+                    "disorder": [
+                        0.2,
+                        0.9402272515132032
+                    ]
+                },
+                {
+                    "maid": [
+                        1.0,
+                        0.9543667123627451
+                    ]
+                },
+                {
+                    "leaf": [
+                        1.0,
+                        0.9738272486496562
+                    ]
+                },
+                {
+                    "justice": [
+                        0.2,
+                        1.0
+                    ]
+                }
+            ],
+            "detected": [
+                "address",
+                "bell",
+                "brick",
+                "cent",
+                "chemistry",
+                "cost",
+                "credit",
+                "crisis",
+                "curious",
+                "curtain",
+                "dare",
+                "deliver",
+                "disease",
+                "disk",
+                "disorder",
+                "domain",
+                "drug",
+                "energy",
+                "excuse",
+                "family",
+                "federal",
+                "gain",
+                "gallery",
+                "justice",
+                "lift",
+                "lip",
+                "maid",
+                "martial",
+                "maybe"
+            ]
+        },
+        {
+            "score": 0.78125,
+            "metric": "manhattan",
+            "true_positives": 25,
+            "false_positives": 1,
+            "true_negatives": 0,
+            "false_negatives": 6,
+            "top_words": [
+                {
+                    "cost": [
+                        0.4,
+                        0.3824089077081884
+                    ]
+                },
+                {
+                    "leaf": [
+                        1.0,
+                        0.3865276785132811
+                    ]
+                },
+                {
+                    "disorder": [
+                        0.2,
+                        0.42509585056184607
+                    ]
+                },
+                {
+                    "lift": [
+                        0.4,
+                        0.4358027222683693
+                    ]
+                },
+                {
+                    "gain": [
+                        0.6,
+                        0.44298272808596817
+                    ]
+                },
+                {
+                    "maid": [
+                        1.0,
+                        0.4969674813689585
+                    ]
+                },
+                {
+                    "maybe": [
+                        0.4,
+                        0.5290024025698513
+                    ]
+                },
+                {
+                    "federal": [
+                        0.6,
+                        0.6654465564543528
+                    ]
+                },
+                {
+                    "address": [
+                        2.6,
+                        0.6820940680280021
+                    ]
+                },
+                {
+                    "justice": [
+                        0.2,
+                        0.9996549203257447
+                    ]
+                }
+            ],
+            "detected": [
+                "address",
+                "brick",
+                "cent",
+                "chemistry",
+                "cost",
+                "credit",
+                "crisis",
+                "curious",
+                "curtain",
+                "dare",
+                "deliver",
+                "disease",
+                "disk",
+                "disorder",
+                "domain",
+                "drug",
+                "energy",
+                "excuse",
+                "family",
+                "federal",
+                "gain",
+                "gallery",
+                "lip",
+                "martial",
+                "maybe"
+            ]
+        },
+        {
+            "score": 0.84375,
+            "metric": "braycurtis",
+            "true_positives": 27,
+            "false_positives": 1,
+            "true_negatives": 0,
+            "false_negatives": 4,
+            "top_words": [
+                {
+                    "drug": [
+                        0.8,
+                        0.8867405941919068
+                    ]
+                },
+                {
+                    "cost": [
+                        0.4,
+                        0.8915959687730713
+                    ]
+                },
+                {
+                    "justice": [
+                        0.2,
+                        0.8940968667030907
+                    ]
+                },
+                {
+                    "deliver": [
+                        1.0,
+                        0.9009115547290701
+                    ]
+                },
+                {
+                    "bell": [
+                        0.4,
+                        0.912462967154191
+                    ]
+                },
+                {
+                    "domain": [
+                        2.8,
+                        0.913211864475806
+                    ]
+                },
+                {
+                    "disk": [
+                        2.6,
+                        0.9201440587773588
+                    ]
+                },
+                {
+                    "leaf": [
+                        1.0,
+                        0.9347879056640757
+                    ]
+                },
+                {
+                    "gallery": [
+                        1.0,
+                        0.936265939455919
+                    ]
+                },
+                {
+                    "brick": [
+                        0.8,
+                        0.9598876783104304
+                    ]
+                }
+            ],
+            "detected": [
+                "address",
+                "brick",
+                "cent",
+                "chemistry",
+                "cost",
+                "credit",
+                "crisis",
+                "curious",
+                "dare",
+                "deliver",
+                "disease",
+                "disk",
+                "disorder",
+                "domain",
+                "drug",
+                "energy",
+                "excuse",
+                "family",
+                "federal",
+                "gain",
+                "gallery",
+                "justice",
+                "lift",
+                "lip",
+                "maid",
+                "martial",
+                "maybe"
+            ]
+        },
+        {
+            "score": 0.53125,
+            "metric": "correlation",
+            "true_positives": 17,
+            "false_positives": 1,
+            "true_negatives": 0,
+            "false_negatives": 14,
+            "top_words": [
+                {
+                    "deliver": [
+                        1.0,
+                        0.7991163527532797
+                    ]
+                },
+                {
+                    "disk": [
+                        2.6,
+                        0.8100783128909574
+                    ]
+                },
+                {
+                    "brick": [
+                        0.8,
+                        0.8162934770453188
+                    ]
+                },
+                {
+                    "bell": [
+                        0.4,
+                        0.8186972531325074
+                    ]
+                },
+                {
+                    "cost": [
+                        0.4,
+                        0.8204590258547396
+                    ]
+                },
+                {
+                    "gallery": [
+                        1.0,
+                        0.8214019302831802
+                    ]
+                },
+                {
+                    "justice": [
+                        0.2,
+                        0.8786589516558291
+                    ]
+                },
+                {
+                    "lift": [
+                        0.4,
+                        0.8799596896045854
+                    ]
+                },
+                {
+                    "domain": [
+                        2.8,
+                        0.9496910891732693
+                    ]
+                },
+                {
+                    "leaf": [
+                        1.0,
+                        1.0
+                    ]
+                }
+            ],
+            "detected": [
+                "brick",
+                "cost",
+                "credit",
+                "curious",
+                "dare",
+                "disease",
+                "disk",
+                "disorder",
+                "excuse",
+                "family",
+                "federal",
+                "gallery",
+                "justice",
+                "lift",
+                "lip",
+                "maid",
+                "martial"
+            ]
+        }
+    ]
+}

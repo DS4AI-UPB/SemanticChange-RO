@@ -1,0 +1,406 @@
+{
+    "target": "demo/data",
+    "language": "en",
+    "skip_training" : 1,
+    "name": "semeval_en_model1",
+    "description": "semeval_en",
+    "corpora": [
+        "precomp_results/elmo_1_1.csv",
+        "precomp_results/elmo_1_2.csv"
+    ],
+    "threshold": 0.05,
+    "tests": [
+        {
+            "word": "address",
+            "expected": "2.6"
+        },
+        {
+            "word": "architecture",
+            "expected": "0.8"
+        },
+        {
+            "word": "assay",
+            "expected": "1"
+        },
+        {
+            "word": "atom",
+            "expected": "0.8"
+        },
+        {
+            "word": "baseball",
+            "expected": "0"
+        },
+        {
+            "word": "bell",
+            "expected": "0.4"
+        },
+        {
+            "word": "brick",
+            "expected": "0.8"
+        },
+        {
+            "word": "card",
+            "expected": "2.4"
+        },
+        {
+            "word": "ceiling",
+            "expected": "0.6"
+        },
+        {
+            "word": "cent",
+            "expected": "0.4"
+        },
+        {
+            "word": "chemistry",
+            "expected": "0.2"
+        },
+        {
+            "word": "coach",
+            "expected": "0.2"
+        },
+        {
+            "word": "compact",
+            "expected": "1.2"
+        },
+        {
+            "word": "contact",
+            "expected": "1.4"
+        },
+        {
+            "word": "context",
+            "expected": "0.6"
+        },
+        {
+            "word": "cost",
+            "expected": "0.4"
+        },
+        {
+            "word": "credit",
+            "expected": "1.8"
+        },
+        {
+            "word": "crisis",
+            "expected": "0.8"
+        },
+        {
+            "word": "curious",
+            "expected": "0.4"
+        },
+        {
+            "word": "curtain",
+            "expected": "0.4"
+        },
+        {
+            "word": "dare",
+            "expected": "0.4"
+        },
+        {
+            "word": "dealer",
+            "expected": "1.6"
+        },
+        {
+            "word": "deliver",
+            "expected": "1"
+        },
+        {
+            "word": "delivery",
+            "expected": "1.4"
+        },
+        {
+            "word": "dining",
+            "expected": "0.4"
+        },
+        {
+            "word": "disease",
+            "expected": "0.6"
+        },
+        {
+            "word": "disk",
+            "expected": "2.6"
+        },
+        {
+            "word": "disorder",
+            "expected": "0.2"
+        },
+        {
+            "word": "domain",
+            "expected": "2.8"
+        },
+        {
+            "word": "doubt",
+            "expected": "0"
+        },
+        {
+            "word": "drug",
+            "expected": "0.8"
+        },
+        {
+            "word": "energy",
+            "expected": "1.4"
+        },
+        {
+            "word": "environmental",
+            "expected": "1.8"
+        },
+        {
+            "word": "excuse",
+            "expected": "0.4"
+        },
+        {
+            "word": "extracellular",
+            "expected": "1"
+        },
+        {
+            "word": "family",
+            "expected": "1.2"
+        },
+        {
+            "word": "federal",
+            "expected": "0.6"
+        },
+        {
+            "word": "gain",
+            "expected": "0.6"
+        },
+        {
+            "word": "gallery",
+            "expected": "1"
+        },
+        {
+            "word": "honour",
+            "expected": "0.4"
+        },
+        {
+            "word": "immune",
+            "expected": "1"
+        },
+        {
+            "word": "incidence",
+            "expected": "0.4"
+        },
+        {
+            "word": "infection",
+            "expected": "0.6"
+        },
+        {
+            "word": "jet",
+            "expected": "1.4"
+        },
+        {
+            "word": "justice",
+            "expected": "0.2"
+        },
+        {
+            "word": "leaf",
+            "expected": "1"
+        },
+        {
+            "word": "lift",
+            "expected": "0.4"
+        },
+        {
+            "word": "lip",
+            "expected": "0.2"
+        },
+        {
+            "word": "maid",
+            "expected": "1"
+        },
+        {
+            "word": "martial",
+            "expected": "1"
+        },
+        {
+            "word": "maybe",
+            "expected": "0.4"
+        },
+        {
+            "word": "mediaeval",
+            "expected": "0.2"
+        },
+        {
+            "word": "mirror",
+            "expected": "1.6"
+        },
+        {
+            "word": "mobility",
+            "expected": "2"
+        },
+        {
+            "word": "mood",
+            "expected": "0.6"
+        },
+        {
+            "word": "negligence",
+            "expected": "0.2"
+        },
+        {
+            "word": "net",
+            "expected": "3"
+        },
+        {
+            "word": "neutron",
+            "expected": "0.2"
+        },
+        {
+            "word": "node",
+            "expected": "2"
+        },
+        {
+            "word": "novel",
+            "expected": "1"
+        },
+        {
+            "word": "nurse",
+            "expected": "0.4"
+        },
+        {
+            "word": "optical",
+            "expected": "2.2"
+        },
+        {
+            "word": "orange",
+            "expected": "0"
+        },
+        {
+            "word": "organism",
+            "expected": "0.4"
+        },
+        {
+            "word": "orientation",
+            "expected": "1.6"
+        },
+        {
+            "word": "palace",
+            "expected": "0.2"
+        },
+        {
+            "word": "parent",
+            "expected": "0.6"
+        },
+        {
+            "word": "participate",
+            "expected": "0.4"
+        },
+        {
+            "word": "prestige",
+            "expected": "1"
+        },
+        {
+            "word": "prize",
+            "expected": "0.4"
+        },
+        {
+            "word": "program",
+            "expected": "2.8"
+        },
+        {
+            "word": "rabbit",
+            "expected": "0.2"
+        },
+        {
+            "word": "refuse",
+            "expected": "0.8"
+        },
+        {
+            "word": "replacement",
+            "expected": "0.6"
+        },
+        {
+            "word": "romance",
+            "expected": "0.4"
+        },
+        {
+            "word": "scene",
+            "expected": "1"
+        },
+        {
+            "word": "signal",
+            "expected": "1.8"
+        },
+        {
+            "word": "sleep",
+            "expected": "0"
+        },
+        {
+            "word": "smoking",
+            "expected": "0.8"
+        },
+        {
+            "word": "sphere",
+            "expected": "0.4"
+        },
+        {
+            "word": "spine",
+            "expected": "0"
+        },
+        {
+            "word": "strategy",
+            "expected": "0.8"
+        },
+        {
+            "word": "street",
+            "expected": "0"
+        },
+        {
+            "word": "structure",
+            "expected": "1.2"
+        },
+        {
+            "word": "substance",
+            "expected": "1.3"
+        },
+        {
+            "word": "sulphate",
+            "expected": "0"
+        },
+        {
+            "word": "tenure",
+            "expected": "0.4"
+        },
+        {
+            "word": "transaction",
+            "expected": "1.2"
+        },
+        {
+            "word": "trap",
+            "expected": "0.8"
+        },
+        {
+            "word": "upwards",
+            "expected": "0.4"
+        },
+        {
+            "word": "user",
+            "expected": "2.6"
+        },
+        {
+            "word": "vaccine",
+            "expected": "0.2"
+        },
+        {
+            "word": "vector",
+            "expected": "1.6"
+        },
+        {
+            "word": "virtual",
+            "expected": "2.8"
+        },
+        {
+            "word": "virus",
+            "expected": "2"
+        },
+        {
+            "word": "west",
+            "expected": "1.2"
+        },
+        {
+            "word": "wine",
+            "expected": "0.4"
+        },
+        {
+            "word": "woman",
+            "expected": "0.8"
+        }
+    ]
+}

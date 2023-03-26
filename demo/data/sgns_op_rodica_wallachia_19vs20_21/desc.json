@@ -1,0 +1,206 @@
+{
+    "name": "sgns_op_rodica_wallachia_19vs20_21",
+    "language": "ro",
+    "tesk_description": "Wallachian corpora,one before the 19th century and one after the 20th century",
+    "distance_metrics": [
+        "euclidean",
+        "cosine",
+        "canberra",
+        "manhattan",
+        "braycurtis",
+        "correlation"
+    ],
+    "results": [
+        {
+            "score": 0.6666666666666666,
+            "metric": "euclidean",
+            "true_positives": 2,
+            "false_positives": 0,
+            "true_negatives": 0,
+            "false_negatives": 1,
+            "top_words": [
+                {
+                    "lună": [
+                        1.0,
+                        0.0
+                    ]
+                },
+                {
+                    "țară": [
+                        1.0,
+                        0.06328380002752455
+                    ]
+                },
+                {
+                    "parte": [
+                        1.0,
+                        1.0
+                    ]
+                }
+            ],
+            "detected": [
+                "parte",
+                "țară"
+            ]
+        },
+        {
+            "score": 0.6666666666666666,
+            "metric": "cosine",
+            "true_positives": 2,
+            "false_positives": 0,
+            "true_negatives": 0,
+            "false_negatives": 1,
+            "top_words": [
+                {
+                    "țară": [
+                        1.0,
+                        0.0
+                    ]
+                },
+                {
+                    "lună": [
+                        1.0,
+                        0.7002562972153858
+                    ]
+                },
+                {
+                    "parte": [
+                        1.0,
+                        1.0
+                    ]
+                }
+            ],
+            "detected": [
+                "parte",
+                "lună"
+            ]
+        },
+        {
+            "score": 0.6666666666666666,
+            "metric": "canberra",
+            "true_positives": 2,
+            "false_positives": 0,
+            "true_negatives": 0,
+            "false_negatives": 1,
+            "top_words": [
+                {
+                    "lună": [
+                        1.0,
+                        0.0
+                    ]
+                },
+                {
+                    "țară": [
+                        1.0,
+                        0.17171103729545148
+                    ]
+                },
+                {
+                    "parte": [
+                        1.0,
+                        1.0
+                    ]
+                }
+            ],
+            "detected": [
+                "parte",
+                "țară"
+            ]
+        },
+        {
+            "score": 0.6666666666666666,
+            "metric": "manhattan",
+            "true_positives": 2,
+            "false_positives": 0,
+            "true_negatives": 0,
+            "false_negatives": 1,
+            "top_words": [
+                {
+                    "lună": [
+                        1.0,
+                        0.0
+                    ]
+                },
+                {
+                    "țară": [
+                        1.0,
+                        0.06346660688385171
+                    ]
+                },
+                {
+                    "parte": [
+                        1.0,
+                        1.0
+                    ]
+                }
+            ],
+            "detected": [
+                "parte",
+                "țară"
+            ]
+        },
+        {
+            "score": 0.3333333333333333,
+            "metric": "braycurtis",
+            "true_positives": 1,
+            "false_positives": 0,
+            "true_negatives": 0,
+            "false_negatives": 2,
+            "top_words": [
+                {
+                    "lună": [
+                        1.0,
+                        0.0
+                    ]
+                },
+                {
+                    "țară": [
+                        1.0,
+                        0.044836849782552556
+                    ]
+                },
+                {
+                    "parte": [
+                        1.0,
+                        1.0
+                    ]
+                }
+            ],
+            "detected": [
+                "parte"
+            ]
+        },
+        {
+            "score": 0.6666666666666666,
+            "metric": "correlation",
+            "true_positives": 2,
+            "false_positives": 0,
+            "true_negatives": 0,
+            "false_negatives": 1,
+            "top_words": [
+                {
+                    "țară": [
+                        1.0,
+                        0.0
+                    ]
+                },
+                {
+                    "lună": [
+                        1.0,
+                        0.7467558450462937
+                    ]
+                },
+                {
+                    "parte": [
+                        1.0,
+                        1.0
+                    ]
+                }
+            ],
+            "detected": [
+                "parte",
+                "lună"
+            ]
+        }
+    ]
+}

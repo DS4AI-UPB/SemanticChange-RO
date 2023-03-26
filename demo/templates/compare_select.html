@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<form action="/compare">
+    {% for repressentation in model.repressentations %}
+            <input type="checkbox" id="{{repressentation.value}}" name="{{repressentation.value}}" value="{{repressentation.value}}">
+            <label for="{{repressentation.value}}"> {{repressentation.name}}</label><br>
+    {% endfor %}
+    <input type="submit" value="Submit">
+</form>
+
+
+{% endblock %}

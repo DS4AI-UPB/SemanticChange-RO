@@ -1,0 +1,501 @@
+{
+    "name": "sgns_wi_rodica_moldova_19vs20_21",
+    "language": "ro",
+    "tesk_description": "Moldovan corpora,one before the 19th century and one after the 20th century",
+    "distance_metrics": [
+        "euclidean",
+        "cosine",
+        "canberra",
+        "manhattan",
+        "braycurtis",
+        "correlation"
+    ],
+    "results": [
+        {
+            "score": 0.9,
+            "metric": "euclidean",
+            "true_positives": 9,
+            "false_positives": 0,
+            "true_negatives": 0,
+            "false_negatives": 1,
+            "top_words": [
+                {
+                    "deschis": [
+                        1.0,
+                        0.0
+                    ]
+                },
+                {
+                    "drum": [
+                        1.0,
+                        0.372037504240383
+                    ]
+                },
+                {
+                    "grâu": [
+                        1.0,
+                        0.3861885991340431
+                    ]
+                },
+                {
+                    "acolo": [
+                        1.0,
+                        0.6152506144261066
+                    ]
+                },
+                {
+                    "lume": [
+                        1.0,
+                        0.7365098296192931
+                    ]
+                },
+                {
+                    "ţara": [
+                        1.0,
+                        0.8360904012109399
+                    ]
+                },
+                {
+                    "mare": [
+                        1.0,
+                        0.8541485606506197
+                    ]
+                },
+                {
+                    "parte": [
+                        1.0,
+                        0.8684139841001016
+                    ]
+                },
+                {
+                    "mie": [
+                        1.0,
+                        0.9453487132804402
+                    ]
+                },
+                {
+                    "aici": [
+                        1.0,
+                        1.0
+                    ]
+                }
+            ],
+            "detected": [
+                "grâu",
+                "parte",
+                "ţara",
+                "mare",
+                "lume",
+                "drum",
+                "aici",
+                "acolo",
+                "mie"
+            ]
+        },
+        {
+            "score": 0.9,
+            "metric": "cosine",
+            "true_positives": 9,
+            "false_positives": 0,
+            "true_negatives": 0,
+            "false_negatives": 1,
+            "top_words": [
+                {
+                    "deschis": [
+                        1.0,
+                        0.0
+                    ]
+                },
+                {
+                    "aici": [
+                        1.0,
+                        0.1284544698370229
+                    ]
+                },
+                {
+                    "drum": [
+                        1.0,
+                        0.17475496669126667
+                    ]
+                },
+                {
+                    "mie": [
+                        1.0,
+                        0.30854722583543337
+                    ]
+                },
+                {
+                    "parte": [
+                        1.0,
+                        0.4603521173691654
+                    ]
+                },
+                {
+                    "acolo": [
+                        1.0,
+                        0.5480280094483758
+                    ]
+                },
+                {
+                    "lume": [
+                        1.0,
+                        0.5586897659873281
+                    ]
+                },
+                {
+                    "grâu": [
+                        1.0,
+                        0.8536410061483553
+                    ]
+                },
+                {
+                    "ţara": [
+                        1.0,
+                        0.9166370890709344
+                    ]
+                },
+                {
+                    "mare": [
+                        1.0,
+                        1.0
+                    ]
+                }
+            ],
+            "detected": [
+                "grâu",
+                "parte",
+                "ţara",
+                "mare",
+                "lume",
+                "drum",
+                "aici",
+                "acolo",
+                "mie"
+            ]
+        },
+        {
+            "score": 0.9,
+            "metric": "canberra",
+            "true_positives": 9,
+            "false_positives": 0,
+            "true_negatives": 0,
+            "false_negatives": 1,
+            "top_words": [
+                {
+                    "deschis": [
+                        1.0,
+                        0.0
+                    ]
+                },
+                {
+                    "drum": [
+                        1.0,
+                        0.4919638949727287
+                    ]
+                },
+                {
+                    "acolo": [
+                        1.0,
+                        0.5059605837228073
+                    ]
+                },
+                {
+                    "parte": [
+                        1.0,
+                        0.613638959478151
+                    ]
+                },
+                {
+                    "lume": [
+                        1.0,
+                        0.6246040267477919
+                    ]
+                },
+                {
+                    "grâu": [
+                        1.0,
+                        0.669412020937052
+                    ]
+                },
+                {
+                    "mare": [
+                        1.0,
+                        0.7863562514328895
+                    ]
+                },
+                {
+                    "ţara": [
+                        1.0,
+                        0.8651998004976484
+                    ]
+                },
+                {
+                    "aici": [
+                        1.0,
+                        0.9681772932758579
+                    ]
+                },
+                {
+                    "mie": [
+                        1.0,
+                        1.0
+                    ]
+                }
+            ],
+            "detected": [
+                "grâu",
+                "parte",
+                "ţara",
+                "mare",
+                "lume",
+                "drum",
+                "aici",
+                "acolo",
+                "mie"
+            ]
+        },
+        {
+            "score": 0.9,
+            "metric": "manhattan",
+            "true_positives": 9,
+            "false_positives": 0,
+            "true_negatives": 0,
+            "false_negatives": 1,
+            "top_words": [
+                {
+                    "deschis": [
+                        1.0,
+                        0.0
+                    ]
+                },
+                {
+                    "drum": [
+                        1.0,
+                        0.3840272928280414
+                    ]
+                },
+                {
+                    "grâu": [
+                        1.0,
+                        0.38884697282018216
+                    ]
+                },
+                {
+                    "acolo": [
+                        1.0,
+                        0.6621042366468458
+                    ]
+                },
+                {
+                    "lume": [
+                        1.0,
+                        0.7642141272398952
+                    ]
+                },
+                {
+                    "ţara": [
+                        1.0,
+                        0.855342103247378
+                    ]
+                },
+                {
+                    "parte": [
+                        1.0,
+                        0.9413308619932187
+                    ]
+                },
+                {
+                    "mie": [
+                        1.0,
+                        0.9907058536205007
+                    ]
+                },
+                {
+                    "aici": [
+                        1.0,
+                        0.9971427992392248
+                    ]
+                },
+                {
+                    "mare": [
+                        1.0,
+                        1.0
+                    ]
+                }
+            ],
+            "detected": [
+                "grâu",
+                "parte",
+                "ţara",
+                "mare",
+                "lume",
+                "drum",
+                "aici",
+                "acolo",
+                "mie"
+            ]
+        },
+        {
+            "score": 0.9,
+            "metric": "braycurtis",
+            "true_positives": 9,
+            "false_positives": 0,
+            "true_negatives": 0,
+            "false_negatives": 1,
+            "top_words": [
+                {
+                    "deschis": [
+                        1.0,
+                        0.0
+                    ]
+                },
+                {
+                    "acolo": [
+                        1.0,
+                        0.25839945479555165
+                    ]
+                },
+                {
+                    "parte": [
+                        1.0,
+                        0.34503578365653503
+                    ]
+                },
+                {
+                    "lume": [
+                        1.0,
+                        0.47012243139159515
+                    ]
+                },
+                {
+                    "drum": [
+                        1.0,
+                        0.47424247515627344
+                    ]
+                },
+                {
+                    "mare": [
+                        1.0,
+                        0.48836793695360226
+                    ]
+                },
+                {
+                    "grâu": [
+                        1.0,
+                        0.6288616747623624
+                    ]
+                },
+                {
+                    "ţara": [
+                        1.0,
+                        0.8206408191842415
+                    ]
+                },
+                {
+                    "mie": [
+                        1.0,
+                        0.8832964189281723
+                    ]
+                },
+                {
+                    "aici": [
+                        1.0,
+                        1.0
+                    ]
+                }
+            ],
+            "detected": [
+                "grâu",
+                "parte",
+                "ţara",
+                "mare",
+                "lume",
+                "drum",
+                "aici",
+                "acolo",
+                "mie"
+            ]
+        },
+        {
+            "score": 0.9,
+            "metric": "correlation",
+            "true_positives": 9,
+            "false_positives": 0,
+            "true_negatives": 0,
+            "false_negatives": 1,
+            "top_words": [
+                {
+                    "deschis": [
+                        1.0,
+                        0.0
+                    ]
+                },
+                {
+                    "aici": [
+                        1.0,
+                        0.13505239409224096
+                    ]
+                },
+                {
+                    "drum": [
+                        1.0,
+                        0.1767599786918876
+                    ]
+                },
+                {
+                    "mie": [
+                        1.0,
+                        0.32286932605356083
+                    ]
+                },
+                {
+                    "parte": [
+                        1.0,
+                        0.4842937543965456
+                    ]
+                },
+                {
+                    "acolo": [
+                        1.0,
+                        0.5627992708911115
+                    ]
+                },
+                {
+                    "lume": [
+                        1.0,
+                        0.5630693666927443
+                    ]
+                },
+                {
+                    "grâu": [
+                        1.0,
+                        0.8556055862401916
+                    ]
+                },
+                {
+                    "ţara": [
+                        1.0,
+                        0.9304141352466034
+                    ]
+                },
+                {
+                    "mare": [
+                        1.0,
+                        1.0
+                    ]
+                }
+            ],
+            "detected": [
+                "grâu",
+                "parte",
+                "ţara",
+                "mare",
+                "lume",
+                "drum",
+                "aici",
+                "acolo",
+                "mie"
+            ]
+        }
+    ]
+}

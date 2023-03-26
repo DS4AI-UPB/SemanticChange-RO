@@ -1,0 +1,16 @@
+{% extends 'dash_base.html' %}
+
+{% block body %}
+
+{% if model.no_models %}
+  <div class="alert alert-danger" role="alert">
+    Please select at least 1 model
+  </div>
+{% else %}
+  <div style="margin: 32px;">
+    <h1>Comparation</h1>
+    <div id='chart' class='chart'”></div>
+  </div>
+{% endif %}
+
+{% endblock %}

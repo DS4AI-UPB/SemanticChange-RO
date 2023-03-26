@@ -1,0 +1,54 @@
+{
+    "target": "demo/data",
+    "language": "ro",
+    "name": "rodica_moldova_19vs20_21",
+    "description": "Moldovan corpora,one before the 19th century and one after the 20th century",
+    "corpora": [
+        "corpora/combined_19/Moldavia_19th.txt",
+        "corpora/combined_19/Moldavia_20_21th.txt"
+    ],
+    "threshold": 0.05,
+    "tests":[
+        {
+            "word": "grâu",
+            "shift_type": "Derivation",
+            "expected": 1.0
+        },        {
+            "word": "parte",
+            "shift_type": "Polysemy",
+            "expected": 1.0
+        },        {
+            "word": "ţara",
+            "shift_type": "Derivation",
+            "expected": 1.0
+        },        {
+            "word": "mare",
+            "shift_type": "Polysemy",
+            "expected": 1.0
+        },        {
+            "word": "deschis",
+            "shift_type": "Polysemy",
+            "expected": 1.0
+        },        {
+            "word": "lume",
+            "shift_type": "Cognates",
+            "expected": 1.0
+        },        {
+            "word": "drum",
+            "shift_type": "Derivation",
+            "expected": 1.0
+        },        {
+            "word": "aici",
+            "shift_type": "Swadesh",
+            "expected": 1.0
+        },        {
+            "word": "acolo",
+            "shift_type": "Swadesh",
+            "expected": 1.0
+        },        {
+            "word": "mie",
+            "shift_type": "Polysemy",
+            "expected": 1.0
+        }
+    ]
+}

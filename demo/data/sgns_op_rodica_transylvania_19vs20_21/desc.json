@@ -1,0 +1,405 @@
+{
+    "name": "sgns_op_rodica_transylvania_19vs20_21",
+    "language": "ro",
+    "tesk_description": "Transylvanian corpora,one before the 19th century and one after the 20th century",
+    "distance_metrics": [
+        "euclidean",
+        "cosine",
+        "canberra",
+        "manhattan",
+        "braycurtis",
+        "correlation"
+    ],
+    "results": [
+        {
+            "score": 0.875,
+            "metric": "euclidean",
+            "true_positives": 7,
+            "false_positives": 0,
+            "true_negatives": 0,
+            "false_negatives": 1,
+            "top_words": [
+                {
+                    "aici": [
+                        1.0,
+                        0.0
+                    ]
+                },
+                {
+                    "acolo": [
+                        1.0,
+                        0.10563570795572798
+                    ]
+                },
+                {
+                    "parte": [
+                        1.0,
+                        0.19598178789921025
+                    ]
+                },
+                {
+                    "cale": [
+                        1.0,
+                        0.24917275888688661
+                    ]
+                },
+                {
+                    "greu": [
+                        1.0,
+                        0.27006651618601973
+                    ]
+                },
+                {
+                    "întreg": [
+                        1.0,
+                        0.3073559501571776
+                    ]
+                },
+                {
+                    "faţă": [
+                        1.0,
+                        0.4711553296016331
+                    ]
+                },
+                {
+                    "mare": [
+                        1.0,
+                        1.0
+                    ]
+                }
+            ],
+            "detected": [
+                "greu",
+                "parte",
+                "întreg",
+                "faţă",
+                "mare",
+                "cale",
+                "acolo"
+            ]
+        },
+        {
+            "score": 0.25,
+            "metric": "cosine",
+            "true_positives": 2,
+            "false_positives": 0,
+            "true_negatives": 0,
+            "false_negatives": 6,
+            "top_words": [
+                {
+                    "parte": [
+                        1.0,
+                        0.0
+                    ]
+                },
+                {
+                    "acolo": [
+                        1.0,
+                        0.00023185930374751505
+                    ]
+                },
+                {
+                    "aici": [
+                        1.0,
+                        0.00032838321805556375
+                    ]
+                },
+                {
+                    "mare": [
+                        1.0,
+                        0.001126037552331606
+                    ]
+                },
+                {
+                    "greu": [
+                        1.0,
+                        0.0062734374846092275
+                    ]
+                },
+                {
+                    "cale": [
+                        1.0,
+                        0.008414686758550357
+                    ]
+                },
+                {
+                    "faţă": [
+                        1.0,
+                        0.8560081092426927
+                    ]
+                },
+                {
+                    "întreg": [
+                        1.0,
+                        1.0
+                    ]
+                }
+            ],
+            "detected": [
+                "întreg",
+                "faţă"
+            ]
+        },
+        {
+            "score": 0.75,
+            "metric": "canberra",
+            "true_positives": 6,
+            "false_positives": 0,
+            "true_negatives": 0,
+            "false_negatives": 2,
+            "top_words": [
+                {
+                    "aici": [
+                        1.0,
+                        0.0
+                    ]
+                },
+                {
+                    "parte": [
+                        1.0,
+                        0.035912478512221714
+                    ]
+                },
+                {
+                    "acolo": [
+                        1.0,
+                        0.06116052265965592
+                    ]
+                },
+                {
+                    "mare": [
+                        1.0,
+                        0.19090559618556713
+                    ]
+                },
+                {
+                    "cale": [
+                        1.0,
+                        0.43053346782352875
+                    ]
+                },
+                {
+                    "greu": [
+                        1.0,
+                        0.4535067095410302
+                    ]
+                },
+                {
+                    "întreg": [
+                        1.0,
+                        0.9742880044920537
+                    ]
+                },
+                {
+                    "faţă": [
+                        1.0,
+                        1.0
+                    ]
+                }
+            ],
+            "detected": [
+                "greu",
+                "întreg",
+                "faţă",
+                "mare",
+                "cale",
+                "acolo"
+            ]
+        },
+        {
+            "score": 0.875,
+            "metric": "manhattan",
+            "true_positives": 7,
+            "false_positives": 0,
+            "true_negatives": 0,
+            "false_negatives": 1,
+            "top_words": [
+                {
+                    "aici": [
+                        1.0,
+                        0.0
+                    ]
+                },
+                {
+                    "acolo": [
+                        1.0,
+                        0.1170276039752982
+                    ]
+                },
+                {
+                    "parte": [
+                        1.0,
+                        0.2048418103397085
+                    ]
+                },
+                {
+                    "cale": [
+                        1.0,
+                        0.24658499366019798
+                    ]
+                },
+                {
+                    "greu": [
+                        1.0,
+                        0.2743817927701693
+                    ]
+                },
+                {
+                    "întreg": [
+                        1.0,
+                        0.3108506473355017
+                    ]
+                },
+                {
+                    "faţă": [
+                        1.0,
+                        0.4759683181772883
+                    ]
+                },
+                {
+                    "mare": [
+                        1.0,
+                        1.0
+                    ]
+                }
+            ],
+            "detected": [
+                "greu",
+                "parte",
+                "întreg",
+                "faţă",
+                "mare",
+                "cale",
+                "acolo"
+            ]
+        },
+        {
+            "score": 0.75,
+            "metric": "braycurtis",
+            "true_positives": 6,
+            "false_positives": 0,
+            "true_negatives": 0,
+            "false_negatives": 2,
+            "top_words": [
+                {
+                    "aici": [
+                        1.0,
+                        0.0
+                    ]
+                },
+                {
+                    "parte": [
+                        1.0,
+                        0.019516941277740656
+                    ]
+                },
+                {
+                    "acolo": [
+                        1.0,
+                        0.05511310890280529
+                    ]
+                },
+                {
+                    "mare": [
+                        1.0,
+                        0.16275058385108873
+                    ]
+                },
+                {
+                    "cale": [
+                        1.0,
+                        0.3814685587160051
+                    ]
+                },
+                {
+                    "greu": [
+                        1.0,
+                        0.40445648878913043
+                    ]
+                },
+                {
+                    "faţă": [
+                        1.0,
+                        0.9789126679096031
+                    ]
+                },
+                {
+                    "întreg": [
+                        1.0,
+                        1.0
+                    ]
+                }
+            ],
+            "detected": [
+                "greu",
+                "întreg",
+                "faţă",
+                "mare",
+                "cale",
+                "acolo"
+            ]
+        },
+        {
+            "score": 0.25,
+            "metric": "correlation",
+            "true_positives": 2,
+            "false_positives": 0,
+            "true_negatives": 0,
+            "false_negatives": 6,
+            "top_words": [
+                {
+                    "parte": [
+                        1.0,
+                        0.0
+                    ]
+                },
+                {
+                    "acolo": [
+                        1.0,
+                        0.0002343458510481252
+                    ]
+                },
+                {
+                    "aici": [
+                        1.0,
+                        0.00030367363273684774
+                    ]
+                },
+                {
+                    "mare": [
+                        1.0,
+                        0.0011390846201736063
+                    ]
+                },
+                {
+                    "greu": [
+                        1.0,
+                        0.006295702971121032
+                    ]
+                },
+                {
+                    "cale": [
+                        1.0,
+                        0.008333468593088094
+                    ]
+                },
+                {
+                    "faţă": [
+                        1.0,
+                        0.8552518371283715
+                    ]
+                },
+                {
+                    "întreg": [
+                        1.0,
+                        1.0
+                    ]
+                }
+            ],
+            "detected": [
+                "întreg",
+                "faţă"
+            ]
+        }
+    ]
+}

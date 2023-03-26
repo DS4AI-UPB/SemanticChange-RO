@@ -1,0 +1,47 @@
+{
+    "target": "demo/data",
+    "language": "ro",
+    "name": "rodica_transylvania_19vs20_21",
+    "description": "Transylvanian corpora,one before the 19th century and one after the 20th century",
+    "corpora": [
+        "corpora/combined_19/Transylvania_19th.txt",
+        "corpora/combined_19/Transylvania_20_21th.txt"
+    ],
+    "threshold": 0.05,
+    "tests":[
+        {
+            "word": "greu",
+            "shift_type": "Polysemy",
+            "expected": 1.0
+        },        {
+            "word": "parte",
+            "shift_type": "Polysemy",
+            "expected": 1.0
+        },        {
+            "word": "întreg",
+            "shift_type": "Polysemy",
+            "expected": 1.0
+        },        {
+            "word": "faţă",
+            "shift_type": "Polysemy",
+            "expected": 1.0
+        },        {
+            "word": "mare",
+            "shift_type": "Polysemy",
+            "expected": 1.0
+        },        {
+            "word": "cale",
+            "shift_type": "Derivation",
+            "expected": 1.0
+        },        {
+            "word": "aici",
+            "shift_type": "Swadesh",
+            "expected": 1.0
+        },        {
+            "word": "acolo",
+            "shift_type": "Swadesh",
+            "expected": 1.0
+        }
+
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "target": "demo/data",
+    "language": "ro",
+    "name": "rodica_wallachia_19vs20_21",
+    "description": "Wallachian corpora,one before the 19th century and one after the 20th century",
+    "corpora": [
+        "corpora/combined_19/Wallachia_19th.txt",
+        "corpora/combined_19/Wallachia_20_21th.txt"
+    ],
+    "threshold": 0.05,
+    "tests":[
+        {
+            "word": "parte",
+            "shift_type": "Polysemy",
+            "expected": 1.0
+        },        {
+            "word": "țară",
+            "shift_type": "Polysemy",
+            "expected": 1.0
+        },        {
+            "word": "lună",
+            "shift_type": "Polysemy",
+            "expected": 1.0
+        }
+    ]
+}

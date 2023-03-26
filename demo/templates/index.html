@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<ul class="list-group">
+    {% for repressentation in model.repressentations %}
+        <li class="list-group-item"><a href="results?results={{repressentation.value}}"> {{repressentation.name}} </a></li>
+    {% endfor %}
+</ul>
+
+{% endblock %}

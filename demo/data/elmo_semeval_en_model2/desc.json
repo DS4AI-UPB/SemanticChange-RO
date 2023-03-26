@@ -1,0 +1,716 @@
+{
+    "name": "elmo_semeval_en_model2",
+    "language": "en",
+    "tesk_description": "semeval_en",
+    "distance_metrics": [
+        "pointwise_euclidean",
+        "pointwise_cosine",
+        "pointwise_canberra",
+        "pointwise_jaccard",
+        "pointwise_manhattan",
+        "jsd",
+        "cluster_count"
+    ],
+    "results": [
+        {
+            "score": 0.20408163265306123,
+            "metric": "pointwise_euclidean",
+            "true_positives": 13,
+            "false_positives": 0,
+            "true_negatives": 7,
+            "false_negatives": 78,
+            "top_words": [
+                {
+                    "upwards": [
+                        0.4,
+                        0.7717555657538612
+                    ]
+                },
+                {
+                    "replacement": [
+                        0.6,
+                        0.7785509269098768
+                    ]
+                },
+                {
+                    "prestige": [
+                        1.0,
+                        0.7837332808855532
+                    ]
+                },
+                {
+                    "virtual": [
+                        2.8,
+                        0.8031733824721324
+                    ]
+                },
+                {
+                    "node": [
+                        2.0,
+                        0.8114586913169921
+                    ]
+                },
+                {
+                    "ceiling": [
+                        0.6,
+                        0.8386303544000755
+                    ]
+                },
+                {
+                    "jet": [
+                        1.4,
+                        0.8665816789051187
+                    ]
+                },
+                {
+                    "negligence": [
+                        0.2,
+                        0.8685001010620804
+                    ]
+                },
+                {
+                    "disorder": [
+                        0.2,
+                        0.9967930240850518
+                    ]
+                },
+                {
+                    "disk": [
+                        2.6,
+                        1.0
+                    ]
+                }
+            ],
+            "detected": [
+                "assay",
+                "ceiling",
+                "disk",
+                "disorder",
+                "incidence",
+                "jet",
+                "negligence",
+                "node",
+                "optical",
+                "prestige",
+                "replacement",
+                "upwards",
+                "virtual"
+            ]
+        },
+        {
+            "score": 0.7755102040816326,
+            "metric": "pointwise_cosine",
+            "true_positives": 75,
+            "false_positives": 6,
+            "true_negatives": 1,
+            "false_negatives": 16,
+            "top_words": [
+                {
+                    "drug": [
+                        0.8,
+                        0.8252617549152146
+                    ]
+                },
+                {
+                    "lift": [
+                        0.4,
+                        0.8261411634450784
+                    ]
+                },
+                {
+                    "sleep": [
+                        0.0,
+                        0.837554544718778
+                    ]
+                },
+                {
+                    "gain": [
+                        0.6,
+                        0.8423900991121298
+                    ]
+                },
+                {
+                    "crisis": [
+                        0.8,
+                        0.850954923003744
+                    ]
+                },
+                {
+                    "cent": [
+                        0.4,
+                        0.8758460081472369
+                    ]
+                },
+                {
+                    "disease": [
+                        0.6,
+                        0.8976919482398134
+                    ]
+                },
+                {
+                    "mirror": [
+                        1.6,
+                        0.9412906414086024
+                    ]
+                },
+                {
+                    "orange": [
+                        0.0,
+                        0.966320586797908
+                    ]
+                },
+                {
+                    "structure": [
+                        1.2,
+                        1.0
+                    ]
+                }
+            ],
+            "detected": [
+                "address",
+                "architecture",
+                "assay",
+                "bell",
+                "brick",
+                "card",
+                "ceiling",
+                "cent",
+                "chemistry",
+                "coach",
+                "compact",
+                "contact",
+                "cost",
+                "credit",
+                "crisis",
+                "curious",
+                "curtain",
+                "dare",
+                "dealer",
+                "deliver",
+                "delivery",
+                "dining",
+                "disease",
+                "disk",
+                "disorder",
+                "domain",
+                "drug",
+                "energy",
+                "environmental",
+                "excuse",
+                "family",
+                "federal",
+                "gain",
+                "gallery",
+                "honour",
+                "incidence",
+                "infection",
+                "jet",
+                "justice",
+                "leaf",
+                "lift",
+                "lip",
+                "maid",
+                "martial",
+                "maybe",
+                "mirror",
+                "mood",
+                "negligence",
+                "net",
+                "node",
+                "novel",
+                "nurse",
+                "optical",
+                "palace",
+                "parent",
+                "participate",
+                "prestige",
+                "prize",
+                "program",
+                "refuse",
+                "replacement",
+                "romance",
+                "scene",
+                "signal",
+                "sphere",
+                "strategy",
+                "structure",
+                "substance",
+                "transaction",
+                "trap",
+                "upwards",
+                "virtual",
+                "west",
+                "wine",
+                "woman"
+            ]
+        },
+        {
+            "score": 0.20408163265306123,
+            "metric": "pointwise_canberra",
+            "true_positives": 13,
+            "false_positives": 0,
+            "true_negatives": 7,
+            "false_negatives": 78,
+            "top_words": [
+                {
+                    "virtual": [
+                        2.8,
+                        0.8328450695904211
+                    ]
+                },
+                {
+                    "prestige": [
+                        1.0,
+                        0.8348780645491493
+                    ]
+                },
+                {
+                    "replacement": [
+                        0.6,
+                        0.8359474512869536
+                    ]
+                },
+                {
+                    "optical": [
+                        2.2,
+                        0.838520529162256
+                    ]
+                },
+                {
+                    "node": [
+                        2.0,
+                        0.868516037878948
+                    ]
+                },
+                {
+                    "jet": [
+                        1.4,
+                        0.8839180757239675
+                    ]
+                },
+                {
+                    "ceiling": [
+                        0.6,
+                        0.884068251826245
+                    ]
+                },
+                {
+                    "negligence": [
+                        0.2,
+                        0.9239120039176241
+                    ]
+                },
+                {
+                    "disk": [
+                        2.6,
+                        0.9829412313233639
+                    ]
+                },
+                {
+                    "disorder": [
+                        0.2,
+                        1.0
+                    ]
+                }
+            ],
+            "detected": [
+                "assay",
+                "ceiling",
+                "disk",
+                "disorder",
+                "incidence",
+                "jet",
+                "negligence",
+                "node",
+                "optical",
+                "prestige",
+                "replacement",
+                "upwards",
+                "virtual"
+            ]
+        },
+        {
+            "score": 0.07142857142857142,
+            "metric": "pointwise_jaccard",
+            "true_positives": 0,
+            "false_positives": 0,
+            "true_negatives": 7,
+            "false_negatives": 91,
+            "top_words": [
+                {
+                    "trap": [
+                        0.8,
+                        0.0
+                    ]
+                },
+                {
+                    "upwards": [
+                        0.4,
+                        0.0
+                    ]
+                },
+                {
+                    "user": [
+                        2.6,
+                        0
+                    ]
+                },
+                {
+                    "vaccine": [
+                        0.2,
+                        0
+                    ]
+                },
+                {
+                    "vector": [
+                        1.6,
+                        0
+                    ]
+                },
+                {
+                    "virtual": [
+                        2.8,
+                        0.0
+                    ]
+                },
+                {
+                    "virus": [
+                        2.0,
+                        0
+                    ]
+                },
+                {
+                    "west": [
+                        1.2,
+                        0.0
+                    ]
+                },
+                {
+                    "wine": [
+                        0.4,
+                        0.0
+                    ]
+                },
+                {
+                    "woman": [
+                        0.8,
+                        0.0
+                    ]
+                }
+            ],
+            "detected": []
+        },
+        {
+            "score": 0.20408163265306123,
+            "metric": "pointwise_manhattan",
+            "true_positives": 13,
+            "false_positives": 0,
+            "true_negatives": 7,
+            "false_negatives": 78,
+            "top_words": [
+                {
+                    "upwards": [
+                        0.4,
+                        0.7555120448248476
+                    ]
+                },
+                {
+                    "replacement": [
+                        0.6,
+                        0.7728978025038602
+                    ]
+                },
+                {
+                    "prestige": [
+                        1.0,
+                        0.7751058876625408
+                    ]
+                },
+                {
+                    "virtual": [
+                        2.8,
+                        0.790179097931127
+                    ]
+                },
+                {
+                    "node": [
+                        2.0,
+                        0.8019411583782584
+                    ]
+                },
+                {
+                    "ceiling": [
+                        0.6,
+                        0.8488066625675552
+                    ]
+                },
+                {
+                    "jet": [
+                        1.4,
+                        0.859458714557239
+                    ]
+                },
+                {
+                    "negligence": [
+                        0.2,
+                        0.8716315860608862
+                    ]
+                },
+                {
+                    "disorder": [
+                        0.2,
+                        0.9936406841569289
+                    ]
+                },
+                {
+                    "disk": [
+                        2.6,
+                        1.0
+                    ]
+                }
+            ],
+            "detected": [
+                "assay",
+                "ceiling",
+                "disk",
+                "disorder",
+                "incidence",
+                "jet",
+                "negligence",
+                "node",
+                "optical",
+                "prestige",
+                "replacement",
+                "upwards",
+                "virtual"
+            ]
+        },
+        {
+            "score": 0.5,
+            "metric": "jsd",
+            "true_positives": 48,
+            "false_positives": 6,
+            "true_negatives": 1,
+            "false_negatives": 43,
+            "top_words": [
+                {
+                    "parent": [
+                        0.6,
+                        0.94420261669971
+                    ]
+                },
+                {
+                    "gain": [
+                        0.6,
+                        0.9496766190634126
+                    ]
+                },
+                {
+                    "west": [
+                        1.2,
+                        0.9511004253044574
+                    ]
+                },
+                {
+                    "justice": [
+                        0.2,
+                        0.9541503291255098
+                    ]
+                },
+                {
+                    "scene": [
+                        1.0,
+                        0.9622246620540674
+                    ]
+                },
+                {
+                    "cost": [
+                        0.4,
+                        0.9623703848201096
+                    ]
+                },
+                {
+                    "bell": [
+                        0.4,
+                        0.9626975780093248
+                    ]
+                },
+                {
+                    "address": [
+                        2.6,
+                        0.9726457009314466
+                    ]
+                },
+                {
+                    "credit": [
+                        1.8,
+                        0.9832556905402893
+                    ]
+                },
+                {
+                    "lip": [
+                        0.2,
+                        1.0
+                    ]
+                }
+            ],
+            "detected": [
+                "address",
+                "architecture",
+                "bell",
+                "brick",
+                "cent",
+                "coach",
+                "compact",
+                "contact",
+                "cost",
+                "credit",
+                "curious",
+                "curtain",
+                "dare",
+                "dealer",
+                "deliver",
+                "delivery",
+                "dining",
+                "disease",
+                "energy",
+                "environmental",
+                "excuse",
+                "family",
+                "federal",
+                "gain",
+                "honour",
+                "infection",
+                "justice",
+                "leaf",
+                "lift",
+                "lip",
+                "maybe",
+                "mirror",
+                "mood",
+                "net",
+                "novel",
+                "nurse",
+                "palace",
+                "parent",
+                "participate",
+                "program",
+                "refuse",
+                "romance",
+                "scene",
+                "signal",
+                "strategy",
+                "west",
+                "wine",
+                "woman"
+            ]
+        },
+        {
+            "score": 0.3877551020408163,
+            "metric": "cluster_count",
+            "true_positives": 34,
+            "false_positives": 3,
+            "true_negatives": 4,
+            "false_negatives": 57,
+            "top_words": [
+                {
+                    "prize": [
+                        0.4,
+                        1.0
+                    ]
+                },
+                {
+                    "program": [
+                        2.8,
+                        1.0
+                    ]
+                },
+                {
+                    "refuse": [
+                        0.8,
+                        1.0
+                    ]
+                },
+                {
+                    "scene": [
+                        1.0,
+                        1.0
+                    ]
+                },
+                {
+                    "sphere": [
+                        0.4,
+                        1.0
+                    ]
+                },
+                {
+                    "street": [
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "structure": [
+                        1.2,
+                        1.0
+                    ]
+                },
+                {
+                    "substance": [
+                        1.3,
+                        1.0
+                    ]
+                },
+                {
+                    "transaction": [
+                        1.2,
+                        1.0
+                    ]
+                },
+                {
+                    "trap": [
+                        0.8,
+                        1.0
+                    ]
+                }
+            ],
+            "detected": [
+                "address",
+                "bell",
+                "brick",
+                "card",
+                "cent",
+                "chemistry",
+                "contact",
+                "cost",
+                "credit",
+                "curious",
+                "dare",
+                "domain",
+                "drug",
+                "environmental",
+                "family",
+                "federal",
+                "gallery",
+                "justice",
+                "leaf",
+                "lip",
+                "maid",
+                "martial",
+                "maybe",
+                "mood",
+                "nurse",
+                "prize",
+                "program",
+                "refuse",
+                "scene",
+                "sphere",
+                "structure",
+                "substance",
+                "transaction",
+                "trap"
+            ]
+        }
+    ],
+    "use_clusters": true
+}
