@@ -52,3 +52,4 @@ Schema for a configration task.json file (in the tasks directory):
 
 Change directory to the ``demo`` folder and run ``python app.py``
 Use  a browser to and open the link [http://127.0.0.1:5000](http://127.0.0.1:5000)
+
