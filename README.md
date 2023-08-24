@@ -2,7 +2,7 @@
 
 ## Article:
 
-Ciprian-Octavian Truică, Victor Tudose, Elena-Simona Apostol. *Semantic Change Detection for the Romanian Language*. Arxiv, 2023. Link: [https://arxiv.org/TBA](https://arxiv.org/TBA)
+Ciprian-Octavian Truică, Victor Tudose, Elena-Simona Apostol. *Semantic Change Detection for the Romanian Language*. nternational Symposium on Symbolic and Numeric Algorithms for Scientific Computing (SYNASC 2023), 2023. Link: [https://arxiv.org/abs/2308.12131](https://arxiv.org/abs/2308.12131)
 
 ## Code 
 
